@@ -91,7 +91,14 @@
   @media screen and (min-width: 1200px) {
     font-size: 44px;
     max-width: 696px;
+
+    
   }
+  animation-name: backInDown;
+    animation-duration: 3000ms;
+    animation-timing-function:ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 
 .slogan-button {
