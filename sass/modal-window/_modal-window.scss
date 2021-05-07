@@ -2,7 +2,7 @@
 
 .backdrop-slogan {
   position: fixed;
-  z-index: 1;
+  z-index: 16;
   top: 0;
   left: 0;
   width: 100%;
@@ -161,7 +161,7 @@
 }
 
 .modal-checkbox:checked + .checkbox-icon-span {
-  background-image: url("../images/icon-modal-check-square.svg");
+  background-image: url('../images/icon-modal-check-square.svg');
   background-size: contain;
   background-origin: border-box;
 
@@ -250,11 +250,9 @@
 /* textaria mark up */
 
 /* icon in modal */
-.modal-form__unit-span{
-	position: relative;
+.modal-form__unit-span {
+  position: relative;
 }
-
-
 
 .modal-form__unit-icon {
   position: absolute;
