@@ -1178,6 +1178,24 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+  animation-name: fadeInDown;
+  animation-duration: 3000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  opacity: 1;
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translate3d(-1000px, -100%, 0px);
+    opacity: 0;
+    color: red;
+  }
+  100% {
+    transform: translate3d(100%, 0px);
+    opacity: none;
+  }
 }
 
 .clients-list__item {
