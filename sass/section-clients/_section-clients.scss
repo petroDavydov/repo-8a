@@ -11,7 +11,7 @@
   animation-timing-function: linear;
   animation-iteration-count: 1;
   animation-direction: normal;
-  opacity: 1;
+
 
   @keyframes fadeInDown {
     0% {
@@ -20,16 +20,11 @@
       color: red;
     }
 
-	50% {
-		transform: translate3d(500px, -50%, 0px);
-		opacity: 0.5;
-		color:green;
-	  }
 
     100% {
       transform: translate3d(100%, 0px);
-	  color: hotpink;
-      opacity: none;
+	  color: blue;
+      
     }
   }
 }
