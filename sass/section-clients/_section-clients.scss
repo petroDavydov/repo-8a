@@ -12,23 +12,20 @@
   animation-iteration-count: 1;
   animation-direction: normal;
 
-
   @keyframes fadeInDown {
     0% {
       transform: translate3d(-1000px, -100%, 0px);
-      opacity: 0;
       color: red;
     }
+
 
 
     100% {
       transform: translate3d(100%, 0px);
 	  color: blue;
-      
-    }
   }
 }
-
+}
 .clients-list__item {
   height: 90px;
 }
