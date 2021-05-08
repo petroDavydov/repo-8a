@@ -9,7 +9,9 @@
   }
 
   @media screen and (min-width: 1200px) {
-    @include center();
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 46px;
   }
 }
